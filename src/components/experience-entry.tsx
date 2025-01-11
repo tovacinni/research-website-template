@@ -2,7 +2,7 @@ import { Experience } from "@/data/experience";
 
 export function ExperienceEntry({ experience }: { experience: Experience }) {
   return (
-    <div className="grid grid-cols-4">
+    <div className="grid grid-cols-4 gap-x-2">
       <span className="text-xs text-zinc-500 mt-1">{experience.date}</span>
       <div className="col-span-3 flex flex-col">
         <h3 className="text-base font-serif">
