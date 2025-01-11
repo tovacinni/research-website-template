@@ -8,9 +8,9 @@ export function PublicationEntry({
   publication: Publication;
 }) {
   return (
-    <div className="flex flex-row gap-6">
+    <div className="flex flex-col sm:flex-row gap-6">
       {publication.imageUrl && (
-        <div className="w-1/4 min-w-[160px] relative">
+        <div className="w-full sm:w-1/4 min-w-[160px] relative">
           <Image
             src={publication.imageUrl}
             alt={publication.title}
