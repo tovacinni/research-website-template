@@ -10,7 +10,7 @@ export function EducationEntry({ education }: { education: Education }) {
           <p className="text-sm text-zinc-600">{education.degree}</p>
           {education.advisors && (
             <p className="text-sm text-zinc-500 mt-2 italic">
-              advisors: {education.advisors}
+              Advisors: {education.advisors}
             </p>
           )}
           {education.thesis && (
