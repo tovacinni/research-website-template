@@ -26,8 +26,8 @@ export const aboutMe: AboutMe = {
     "I strive to bridge the gap between philosophy and the world, using computational methods such as AI, economics, and technology to address real-world challenges. My work centers on mechanism design for social good and shaping technology policy to foster human-centric innovation. By weaving together interdisciplinary approaches, I aim to create solutions that not only solve complex problems but also uphold ethical and equitable principles.",
   email: "sipho [dot] langa [at] ucf [dot] edu",
   imageUrl:
-    "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
+    "https://share.icloud.com/photos/047Ap20F7uKrMZj0WUe6bXwxg",
+  //googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
   githubUsername: "ChadL22",
   twitterUsername: "sc_langa",
   //blogUrl: "https://",
