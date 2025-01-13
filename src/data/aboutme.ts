@@ -23,7 +23,7 @@ export const aboutMe: AboutMe = {
   institution: "University of Centtral Florida",
   // Note that links work in the description
   description:
-    "I strive to bridge the gap between philosophy and the world, using computational methods such as AI, economics, and technology to address real-world challenges. My work centers on mechanism design for social good and shaping technology policy to foster human-centric innovation. By weaving together interdisciplinary approaches, I aim to create solutions that not only solve complex problems but also uphold ethical and equitable principles.",
+    "Through my research I strive to bridge the gap between philosophy and the world, using computational methods from AI, economics, and technology to address real-world challenges. My work centers on mechanism design for social good and shaping technology policy to foster human-centric innovation. By weaving together interdisciplinary approaches, I hope to create solutions that not only solve complex problems but also uphold ethical and equitable principles.",
   email: "sipho [dot] langa [at] ucf [dot] edu",
   imageUrl:
     "",
