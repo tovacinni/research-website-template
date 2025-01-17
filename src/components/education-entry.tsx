@@ -1,37 +1,35 @@
 import { Education } from "@/data/education";
+import Image from "next/image"; // Import the Image component from Next.js
 
 export function EducationEntry({ education }: { education: Education }) {
-  return (
-    <div>
-      <div className="grid grid-cols-4 gap-x-2 mb-2">
-        <span className="text-xs text-zinc-500 mt-1">{education.year}</span>
-        <div className="col-span-3">
-          <h3 className="text-base mb-1 font-serif">{education.institution}</h3>
-          <p className="text-sm text-zinc-600">{education.degree}</p>
-          {education.advisor && (
-            <p className="text-sm text-zinc-500 mt-2 italic">
-              Advisor: {education.advisor}
-            </p>
-          )}
-          {education.thesis && (
-            <p className="text-sm text-zinc-500 mt-2 italic">
-              Thesis:{" "}
-              {education.thesisUrl ? (
-                <a
-                  href={education.thesisUrl}
-                  className="hover:underline"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {education.thesis}
-                </a>
-              ) : (
-                education.thesis
-              )}
-            </p>
-          )}
+    return (
+        <div className="flex items-start mb-2">
+            {" "}
+            {/* Use flexbox for layout */}
+            {education.imageUrl && (
+                <div className="mr-2">
+                    {" "}
+                    {/* Wrap the Image in a div for spacing */}
+                    <Image
+                        src={education.imageUrl}
+                        alt={education.institution}
+                        width={85} // Set the width for the image
+                        height={85} // Set the height for the image
+                        className="object-cover" // Maintain aspect ratio
+                    />
+                </div>
+            )}
+            <div className="flex flex-col">
+                {" "}
+                {/* Column layout for year and institution */}
+                <h3 className="text-base mb-1 font-serif">
+                    {education.institution}
+                </h3>
+                <p className="text-sm text-zinc-600">{education.degree}</p>
+                <span className="text-xs text-zinc-500 mt-1">
+                    {education.year}
+                </span>
+            </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 }
