@@ -23,7 +23,7 @@ export const aboutMe: AboutMe = {
   institution: "Chubu University",
   // Note that links work in the description
   description:
-    "I'm a first-year <a href='https://www.chubu.ac.jp/english/'>PhD student</a> working at the computer vision and vision and language in MPRG. My research focuses on Autonomous Driving, ADAS system.I am interested in technologies for safe autonomous driving systems using computer vision and vision and language.I am also looking for research internships and study abroad opportunities.",
+    "I'm a first-year <a href='https://www.chubu.ac.jp/english/'>PhD student</a> working at the computer vision and vision and language in MPRG. My research focuses on Autonomous Driving, ADAS system. I am interested in technologies for safe autonomous driving systems using computer vision and vision and language.I am also looking for research internships and study abroad opportunities.",
   email: "shimo@mprg.cs.chubu.ac.jp",
   // imageUrl:
   //   "https://ibb.co/F4xfDKPV",
