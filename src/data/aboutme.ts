@@ -25,14 +25,14 @@ export const aboutMe: AboutMe = {
   description:
     "I'm a first-year <a href='https://www.chubu.ac.jp/english/'>PhD student</a> working at the computer vision and vision and language in MPRG. My research focuses on Autonomous Driving, ADAS system.",
   email: "shimo@mprg.cs.chubu.ac.jp",
-  imageUrl:
-    "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  // imageUrl:
+  //   "https://ibb.co/F4xfDKPV",
   googleScholarUrl: "https://scholar.google.com/citations?user=0A_HXBwAAAAJ&hl=ja",
   githubUsername: "kotashimomura",
   linkedinUsername: "kotashimomura",
   twitterUsername: "Naruch11",
   // blogUrl: "https://",
-  // cvUrl: "https://",
+  cvUrl: "https://drive.google.com/file/d/16YGTlgtXnsiR7sqEfi4SplA52Or8wcX-/view?usp=sharing",
   institutionUrl: "https://www.chubu.ac.jp/english/",
   // altName: "",
   // secretDescription: "I like dogs.",
