@@ -13,27 +13,59 @@ export interface Publication {
 
 export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
+  // {
+  //   year: "2024",
+  //   conference: "NeurIPS",
+  //   title: "Scalable Causal Discovery in High-Dimensional Time Series",
+  //   authors: "Jane Smith, Sarah Johnson, Yue Zhang",
+  //   paperUrl: "https://arxiv.org/abs/2409.15476",
+  //   //bibtex: "https://arxiv.org/abs/2409.15476.bib",
+  //   tldr: "Using causal discovery to find the causal structure of high-dimensional time series data.",
+  //   // if you have an image in public/images, you can use it like this:
+  //   // imageUrl: "/images/publication-image.jpg"
+  // },
   {
     year: "2024",
-    conference: "NeurIPS",
-    title: "Scalable Causal Discovery in High-Dimensional Time Series",
-    authors: "Jane Smith, Sarah Johnson, Yue Zhang",
-    paperUrl: "https://arxiv.org/abs/2409.15476",
-    codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
+    conference: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops",
+    title: "Potential Risk Localization via Weak Labeling out of Blind Spot",
+    authors: "Kota Shimomura, Tsubasa Hirakawa, Takayoshi Yamashita, Hironobu Fujiyoshi",
+    paperUrl: "https://openaccess.thecvf.com/content/CVPR2024W/WAD/html/Shimomura_Potential_Risk_Localization_via_Weak_Labeling_out_of_Blind_Spot_CVPRW_2024_paper.html",
+    bibtex: "https://openaccess.thecvf.com/content/CVPR2024W/WAD/html/Shimomura_Potential_Risk_Localization_via_Weak_Labeling_out_of_Blind_Spot_CVPRW_2024_paper.html",
+    // tldr: "Potential Risk Estimation with Single Monocular Camera.",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  {
+    year: "2024",
+    conference: "2024 IEEE Intelligent Vehicles Symposium (IV)",
+    title: "Human-like Guidance by Generating Navigation Using Spatial-Temporal Scene Graph",
+    authors: "Hayato Suzuki, Kota Shimomura, Tsubasa Hirakawa, Takayoshi Yamashita, Hironobu Fujiyoshi, Shota Okubo, Nanri Takuya, Wang Siyuan",
+    paperUrl: "https://ieeexplore.ieee.org/abstract/document/10588867",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
-    tldr: "Using causal discovery to find the causal structure of high-dimensional time series data.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    award: "🏆 Best Paper Award",
+    // tldr: "Potential Risk Estimation with Single Monocular Camera.",
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },
   {
     year: "2023",
-    conference: "ICML",
-    title: "Robust Causal Discovery Under Distribution Shift",
-    authors: "Jane Smith, Xue Chen, Sarah Johnson",
-    paperUrl: "https://arxiv.org/abs/2302.13095",
-    codeUrl: "https://github.com/jsmith/robust-causal-discovery",
+    conference: "2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)",
+    title: "Human-like Guidance with Gaze Estimation and Classification-based Text Generation",
+    authors: "Masaki Nambata, Kota Shimomura, Tsubasa Hirakawa, Takayoshi Yamashita, Hironobu Fujiyoshi",
+    paperUrl: "https://ieeexplore.ieee.org/abstract/document/10422062",
+    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
+    // tldr: "Potential Risk Estimation with Single Monocular Camera.",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
   },
+  {
+    year: "2023",
+    conference: "Secure and Safe Autonomous Driving Workshop and Challenge on CVPR 2023",
+    title: "Potential Risk Estimation with Single Monocular Camera",
+    authors: "Kota Shimomura, Hiroki Adachi, Tsubasa Hirakawa, Takayoshi Yamashita, Hironobu Fujiyoshi, Masamitsu Tsuchiya, Yuji Yasui",
+    paperUrl: "https://trust-ai.github.io/SSAD2023/assets/papers/4.pdf",
+    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
+    // tldr: "Potential Risk Estimation with Single Monocular Camera.",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  }
 ];
