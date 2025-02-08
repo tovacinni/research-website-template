@@ -29,7 +29,7 @@ export const aboutMe: AboutMe = {
   //   "https://ibb.co/F4xfDKPV",
   googleScholarUrl: "https://scholar.google.com/citations?user=0A_HXBwAAAAJ&hl=ja",
   githubUsername: "kotashimomura",
-  linkedinUsername: "kotashimomura",
+  // linkedinUsername: "kotashimomura",
   twitterUsername: "Naruch11",
   // blogUrl: "https://",
   cvUrl: "https://drive.google.com/file/d/16YGTlgtXnsiR7sqEfi4SplA52Or8wcX-/view?usp=sharing",
