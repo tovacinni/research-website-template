@@ -26,7 +26,7 @@ export const publicationData: Publication[] = [
   // },
   {
     year: "2024",
-    conference: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops",
+    conference: "CVPR Workshops",
     title: "Potential Risk Localization via Weak Labeling out of Blind Spot",
     authors: "Kota Shimomura, Tsubasa Hirakawa, Takayoshi Yamashita, Hironobu Fujiyoshi",
     paperUrl: "https://openaccess.thecvf.com/content/CVPR2024W/WAD/html/Shimomura_Potential_Risk_Localization_via_Weak_Labeling_out_of_Blind_Spot_CVPRW_2024_paper.html",
@@ -48,7 +48,7 @@ export const publicationData: Publication[] = [
   },
   {
     year: "2023",
-    conference: "2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)",
+    conference: "IEEE 26th ITSC",
     title: "Human-like Guidance with Gaze Estimation and Classification-based Text Generation",
     authors: "Masaki Nambata, Kota Shimomura, Tsubasa Hirakawa, Takayoshi Yamashita, Hironobu Fujiyoshi",
     paperUrl: "https://ieeexplore.ieee.org/abstract/document/10422062",
@@ -59,7 +59,7 @@ export const publicationData: Publication[] = [
   },
   {
     year: "2023",
-    conference: "Secure and Safe Autonomous Driving Workshop and Challenge on CVPR 2023",
+    conference: "CVPR Workshops",
     title: "Potential Risk Estimation with Single Monocular Camera",
     authors: "Kota Shimomura, Hiroki Adachi, Tsubasa Hirakawa, Takayoshi Yamashita, Hironobu Fujiyoshi, Masamitsu Tsuchiya, Yuji Yasui",
     paperUrl: "https://trust-ai.github.io/SSAD2023/assets/papers/4.pdf",
