@@ -3,6 +3,7 @@ export interface Education {
   institution: string;
   degree: string;
   minor?: string;
+  advisor?: string;
   thesis?: string;
   thesisUrl?: string;
 }
