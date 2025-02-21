@@ -18,22 +18,21 @@ export interface AboutMe {
 }
 
 export const aboutMe: AboutMe = {
-  name: "Jane R. Smith",
-  title: "Ph.D. Candidate",
-  institution: "Stanford University",
+  name: "Sipho C. Langa",
+  title: "Undergraduate Researcher",
+  institution: "University of Centtral Florida",
   // Note that links work in the description
   description:
-    "I'm a final-year <a href='https://www.stanford.edu'>PhD candidate</a> working at the intersection of causal inference and machine learning. My research focuses on developing robust, interpretable systems that can reason about cause and effect in complex environments.",
-  email: "______@stanford.edu",
+    "Through my research I strive to bridge the gap between philosophy and the world, using computational methods from AI, economics, and technology to address real-world challenges. My work centers on mechanism design for social good and shaping technology policy to foster human-centric innovation. By weaving together interdisciplinary approaches, I hope to create solutions that not only solve complex problems but also uphold ethical and equitable principles.",
+  email: "sipho [dot] langa [at] ucf [dot] edu",
   imageUrl:
-    "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
-  githubUsername: "janesmith",
-  linkedinUsername: "janesmith",
-  twitterUsername: "janesmith",
-  blogUrl: "https://",
-  cvUrl: "https://",
-  institutionUrl: "https://www.stanford.edu",
+    "",
+  //googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
+  githubUsername: "ChadL22",
+  twitterUsername: "sc_langa",
+  //blogUrl: "https://",
+  //cvUrl: "https://",
+  institutionUrl: "https://www.ucf.edu/",
   // altName: "",
   // secretDescription: "I like dogs.",
 };
