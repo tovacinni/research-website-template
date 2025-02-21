@@ -7,6 +7,12 @@ export interface News {
 
 export const newsData: News[] = [
   {
+    date: "March 2025",
+    title: "Attending the 2025 Responsible AI Symposium",
+    description: "Exciting news! I will be attending the 2025 Responsible AI Symposium at Duke University. Looking forward to some good presentations and great conversations!",
+    link: "https://www.responsibleaisymposium.com/",
+  },
+  {
     date: "February 2025",
     title: "A Beginner's Guide to Computational Modeling of Human Behavior",
     description: "I recently created a GitHub page focused on computational models of human behavior. This repository is meant to help newcomers get their bearings in this complex and interdisciplinary field. While it's still a work in progress, it already has some useful tips and resources to help you get started!.",
